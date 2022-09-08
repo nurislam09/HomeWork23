@@ -17,10 +17,10 @@ public class Main {
         System.out.println((char) 27 + "[33mBefore sort:" + (char)27 + "[0m"+Arrays.toString(ar));
         sort(ar);
         System.out.println((char) 27 + "[35m------------------- " + (char)27 + "[0m");
-        System.out.println((char) 27 + "[32m\nBefore sort:" + (char)27 + "[0m"+Arrays.toString(ar));
+        System.out.println((char) 27 + "[32m\nBefore sort:" + (char)27 + "[0m"+a);
         sort(a);
         System.out.println((char) 27 + "[30m------------------- " + (char)27 + "[0m");
-        System.out.println((char) 27 + "[31m\nBefore sort:" + (char)27 + "[0m"+Arrays.toString(ar));
+        System.out.println((char) 27 + "[31m\nBefore sort:" + (char)27 + "[0m"+b);
         sort(b);
         System.out.println((char) 27 + "[36m------------------- " + (char)27 + "[0m");
     }
